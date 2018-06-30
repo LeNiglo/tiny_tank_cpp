@@ -1,11 +1,7 @@
-#include <iostream>
-#include <SFML/Graphics.hpp>
-#include "GameController.h"
+#include "TinyTank.h"
+#include "controllers/DebugController.hpp"
 
 int main(int argc, char const *argv[]) {
-    std::cout << "Hello World, Client is running" << std::endl;
-
-    GameController *gc = new GameController();
-
-    return 0;
+    TinyTank *tt = new TinyTank(argc, argv);
+    return tt->run();
 }

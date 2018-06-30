@@ -1,8 +1,9 @@
 NAME = 		tiny_tank
 
 SRCS =		main.cpp \
-			controllers/GameController.cpp \
-			Game.cpp \
+			TinyTank.cpp \
+			controllers/HomeScreen.cpp \
+			
 
 CXX = 		g++
 
