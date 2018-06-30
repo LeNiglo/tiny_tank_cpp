@@ -2,5 +2,5 @@
 
 GameController::GameController()
 {
-    this->game = new Game();
+    
 }

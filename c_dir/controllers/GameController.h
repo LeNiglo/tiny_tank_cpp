@@ -1,9 +1,9 @@
 #ifndef GAMECONTROLLER_H_
 # define GAMECONTROLLER_H_
 
-class GameController {
+class GameController
+{
 private:
-    Game* game;
 
 public:
     GameController ();
