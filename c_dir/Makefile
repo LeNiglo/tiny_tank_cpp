@@ -2,8 +2,9 @@ NAME = 		tiny_tank
 
 SRCS =		main.cpp \
 			TinyTank.cpp \
-			controllers/HomeScreen.cpp \
-			
+			screens/HomeScreen.cpp \
+			screens/GameScreen.cpp \
+
 
 CXX = 		g++
 

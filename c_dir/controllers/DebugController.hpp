@@ -1,8 +1,7 @@
 #ifndef DEBUGCONTROLLER_HPP_
 # define DEBUGCONTROLLER_HPP_
 
-# include <iostream>
-# include <string>
+# include "../includes.h"
 
 class DebugController
 {
