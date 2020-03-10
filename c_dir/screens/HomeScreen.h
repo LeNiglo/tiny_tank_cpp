@@ -9,8 +9,8 @@ private:
     bool goToGame;
 
 public:
-    HomeScreen ();
-    virtual ~HomeScreen ();
+    HomeScreen();
+    virtual ~HomeScreen();
     virtual void render(sf::RenderWindow *);
     virtual void update(EScreen *);
     virtual bool handleEvent(const sf::Event &);

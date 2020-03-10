@@ -1,0 +1,242 @@
+{
+  "tanks": {
+    "tiger" : {
+      "tankState": {
+        "life": "40.0",
+        "speed": "80.0",
+        "armor": "0.0",
+        "accuracy": "100",
+        "build": {
+          "centerX": "-22.0",
+          "centerY": "-22.0",
+          "shiftXExplode": "-73.5",
+          "shiftYExplode": "-72.5",
+          "collisions": [
+            {
+              "shiftOriginX": "-22.0",
+              "shiftOriginY": "-22.0",
+              "sizeX": "47.0",
+              "sizeY": "43.0"
+            }
+          ]
+        }
+      },
+      "tankWeapon": {
+        "hit": {
+          "shotType": "rocket",
+          "speed": "250.0",
+          "damage": "30.0",
+          "maxRange": "100000",
+          "cooldown" : "700",
+          "build": {
+            "centerX": "-41.0",
+            "centerY": "-4.0",
+            "shiftXExplode": "-33.7",
+            "shiftYExplode": "-27.0",
+            "headX": "10.0",
+            "headY": "0.0",
+            "collisions": [
+              {
+                "shiftOriginX": "-14.0",
+                "shiftOriginY": "-2.0",
+                "sizeX": "23.0",
+                "sizeY": "5.0"
+              }
+            ]
+          }
+        },
+        "weapon": {
+          "centerX": "-15.0",
+          "centerY": "-13.0",
+          "canons": [
+            {
+              "centerX": "0.0",
+              "centerY": "0.0",
+              "shiftXHead": "30.0",
+              "shiftYHead": "1.0"
+            }
+          ]
+        }
+      },
+      "tankSpell": {
+        "spellType": "shield",
+        "cooldown" : "15000"
+      },
+      "tankBox": {
+        "boxType": "iron_wall",
+        "boxes" : "3",
+        "cooldownPut" : "2000",
+        "cooldownGenerate" : "20000"
+      }
+    },
+    "sniper": {
+      "tankState": {
+        "life": "30.0",
+        "speed": "70.0",
+        "armor": "0.0",
+        "accuracy": "100",
+        "build": {
+          "centerX": "-46.0",
+          "centerY": "-23.0",
+          "shiftXExplode": "-73.5",
+          "shiftYExplode": "-72.5",
+          "collisions": [
+            {
+              "shiftOriginX": "-33.0",
+              "shiftOriginY": "-23.0",
+              "sizeX": "42.0",
+              "sizeY": "11.0"
+            },
+            {
+              "shiftOriginX": "-33.0",
+              "shiftOriginY": "15.0",
+              "sizeX": "42.0",
+              "sizeY": "11.0"
+            },
+            {
+              "shiftOriginX": "-24.0",
+              "shiftOriginY": "-13.0",
+              "sizeX": "42.0",
+              "sizeY": "27.0"
+            }
+
+          ]
+        }
+      },
+      "tankWeapon": {
+        "hit": {
+          "shotType": "laser",
+          "speed": "500.0",
+          "damage": "200.0",
+          "maxRange": "100000",
+          "cooldown": "2000",
+          "build": {
+            "centerX": "-11.0",
+            "centerY": "-11.0",
+            "shiftXExplode": "-23.5",
+            "shiftYExplode": "-23.5",
+            "headX": "11.0",
+            "headY": "0.0",
+            "collisions": [
+              {
+                "shiftOriginX": "-11.0",
+                "shiftOriginY": "-11.0",
+                "sizeX": "22.0",
+                "sizeY": "22.0"
+              }
+            ]
+          }
+        },
+        "weapon": {
+          "centerX": "-40.0",
+          "centerY": "-24.0",
+          "canons": [
+            {
+              "centerX": "0.0",
+              "centerY": "0.0",
+              "shiftXHead": "0.0",
+              "shiftYHead": "0.0"
+            }
+          ]
+        }
+      },
+      "tankSpell": {
+        "spellType": "invisibility",
+        "cooldown" : "20000"
+      },
+      "tankBox": {
+        "boxType": "plasma_wall",
+        "boxes" : "4",
+        "cooldownPut" : "2000",
+        "cooldownGenerate" : "20000"
+      }
+    },
+    "rusher": {
+      "tankState": {
+        "life": "30.0",
+        "speed": "100.0",
+        "armor": "0.0",
+        "accuracy": "90",
+        "build": {
+          "centerX": "-35.0",
+          "centerY": "-25.0",
+          "shiftXExplode": "-73.5",
+          "shiftYExplode": "-72.5",
+          "collisions": [
+            {
+              "shiftOriginX": "-35.0",
+              "shiftOriginY": "-25.0",
+              "sizeX": "40.0",
+              "sizeY": "10.0"
+            },
+            {
+              "shiftOriginX": "-35.0",
+              "shiftOriginY": "15.0",
+              "sizeX": "40.0",
+              "sizeY": "10.0"
+            },
+            {
+              "shiftOriginX": "-27.0",
+              "shiftOriginY": "-15.0",
+              "sizeX": "41.0",
+              "sizeY": "30.0"
+            }
+          ]
+        }
+      },
+      "tankWeapon": {
+        "hit": {
+          "shotType": "machine_gun",
+          "speed": "235.0",
+          "damage": "10.0",
+          "maxRange": "300",
+          "cooldown": "100",
+          "build": {
+            "centerX": "-16.0",
+            "centerY": "-5.5",
+            "shiftXExplode": "-14.0",
+            "shiftYExplode": "-13.0",
+            "headX": "16.0",
+            "headY": "0.0",
+            "collisions": [
+              {
+                "shiftOriginX": "-6.0",
+                "shiftOriginY": "-5.0",
+                "sizeX": "22.0",
+                "sizeY": "10.0"
+              }
+            ]
+          }
+        },
+        "weapon": {
+          "centerX": "-10.0",
+          "centerY": "-10.0",
+          "canons": [
+            {
+              "centerX": "-10.0",
+              "centerY": "-10.0",
+              "shiftXHead": "25.0",
+              "shiftYHead": "-4.0"
+            },
+            {
+              "centerX": "-10.0",
+              "centerY": "-10.0",
+              "shiftXHead": "25.0",
+              "shiftYHead": "4.0"
+            }
+          ]
+        }
+      },
+      "tankSpell": {
+        "spellType": "teleport",
+        "cooldown" : "1000"
+      },
+      "tankBox": {
+        "boxType": "mine",
+        "boxes" : "5",
+        "cooldownPut" : "1000",
+        "cooldownGenerate" : "20000"
+      }
+    }
+  }
+}

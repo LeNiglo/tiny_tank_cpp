@@ -2,6 +2,9 @@
 
 TinyTank::TinyTank(int argc, char const *argv[])
 {
+    (void) argc;
+    (void) argv;
+    
     this->window = new sf::RenderWindow(sf::VideoMode(WIN_WIDTH, WIN_HEIGHT), "TinyTank", sf::Style::Titlebar | sf::Style::Close);
     this->window->setVerticalSyncEnabled(true);
 

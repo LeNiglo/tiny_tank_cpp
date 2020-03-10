@@ -30,6 +30,7 @@ void    HomeScreen::update(EScreen *currentScreen)
     if (this->goToGame == true) {
         this->goToGame = false;
         DebugController::getInstance()->info("Changing to GAME Screen");
+        // TODO add a system to pass data to the next or previous Screen 
         *currentScreen = EScreen::GAME;
         return;
     }

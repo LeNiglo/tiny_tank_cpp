@@ -2,8 +2,14 @@ NAME = 		tiny_tank
 
 SRCS =		main.cpp \
 			TinyTank.cpp \
+			game/Game.cpp \
+			game/Player.cpp \
+			controllers/GameController.cpp \
 			screens/HomeScreen.cpp \
 			screens/GameScreen.cpp \
+			entities/tanks/Tiger.cpp \
+			entities/tanks/Sniper.cpp \
+			entities/tanks/Rusher.cpp \
 
 
 CXX = 		g++

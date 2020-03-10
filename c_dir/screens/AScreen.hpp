@@ -14,13 +14,13 @@ enum EScreen
 
 class AScreen
 {
+protected:
 public:
     AScreen() {};
     virtual ~AScreen() {};
     virtual void render(sf::RenderWindow *) = 0;
     virtual void update(EScreen *) = 0;
     virtual bool handleEvent(const sf::Event &) = 0;
-private:
 };
 
 # include "./EndGameScreen.h"
